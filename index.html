@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <h1>Weather App</h1>
+    <div id="main-content">
+
+        <input type="text" id="cityname" placeholder="Unesite ime grada...">
+        <h1 class="inputCity">GRAD</h1>
+
+
+    <div class="prognoza">
+
+        <div class="temperature">
+
+            <div class="current">
+                <i class="fa-solid fa-temperature-three-quarters fa-2xl"></i>
+                <span id="temp">0.00 &deg;C</span>
+            </div>
+
+            <div class="ostalo">
+                <p>Min: <span id="mintemp">0.00&deg;C</span></p>
+                <p>Max: <span id="maxtemp">0.00&deg;</span></p>
+                <p>Osećaj: <span id="feeling">0.00&deg;C</span></p>
+                <p>Vlažnost: <span id="humidity">0%</span></p>
+                <p>Pritisak: <span id="pressure">0bar</span></p>
+            </div>
+            
+        </div>
+
+        <div class="vreme">
+            <i class="fa-solid fa-cloud fa-2xl"></i> &nbsp;
+            <p id="weather">Trenutne vremenske prilike</p>
+                
+                <div id="wind">
+                    <i class="fa-solid fa-wind fa-flip fa-2xl"></i>
+                    <p>Brzina: <span id="brzinavetra">0km/h</span></p>
+                    <p>Max. Brzina: <span id="maxbrzinavetra">0km/h</span></p>
+                    <p>Pravac: <span id="pravac">&deg;</span></p>
+                </div>
+        </div>
+  
+    </div>
+</div>    
+        
+    <script src="https://kit.fontawesome.com/2a28cb092d.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
